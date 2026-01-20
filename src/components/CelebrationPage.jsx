@@ -30,12 +30,12 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
   const slides = [
     {
       icon: "✨",
-      text: "It's Your Special Day Yeyey!",
+      text: "It's Your Special Day Yayyyyy!💗🫶🏻",
       type: "announcement",
     },
     {
       icon: "✨",
-      text: "Do you wanna see what I made??",
+      text: "Do you wanna see what I made??🥹💗🫂",
       type: "question",
       options: [
         { text: "Yes!", value: "yes" },
@@ -44,7 +44,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
     },
     {
       icon: "✨",
-      text: "Have a look at it, Madam Jiii",
+      text: "Have a look at it, Myyy Prettiest Lil Babyyy",
       type: "announcement",
     },
   ];
