@@ -15,19 +15,26 @@ function MessageCard({ isActive }) {
 
   const recipientName = "Mannuuu Betaaa";
   const senderName = "Aadie Dada";
-  const message = `[Recipient Name],
+  const message = 
+    `Myy Chotuuu Sa Pyaara Sa Babyyyy 💗🫶🏻🫂,
+Mera pyaaraa bacchaaa 💗🫂,
+Myy Prettiest Lil Babyyy 🥹💗🫂
 
-Your personalized birthday message goes here.
+Today is your birthdayy and I am quite emotional while writing all this 🫂🥹… coz you’re not just someone I love, you’re someone who matters sooo sooo muchhh to mee 😭💗🫂. You came as Shri Mataji’s gift in my life 🫶🏻, and honestly, I didn’t even realise when we became itnaaaa zyadaa closeee, when this bond grew so deep and this attachment became so strong 💗🥹. It all happened so naturally… jaise dil ne khud hi tumhe apna maan liya ho🫂💗.
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+You being emotional and childish around me—there’s something so pure, so innocent about you that it literally makes my heart slow down 😭🫂💗. The way you feel things deeply, the way you express yourself without filters… it’s beautiful💗🥹🫶🏻. Meri Jaan 😭🫂, I want you to know that I deeply care for you and truly want to protect you from this cruel world. With me, you’re allowed to be silly, emotional, dramatic, happy, jealous...everything you are 🥹🫶🏻. You never have to hide any part of yourself or any emotion here..be it happiness or sadness(crying as well)😭🫂.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+There are so many little things that live in my heart....your voice notes, the songs you put on Insta notes, the letter card that you gave me 💗, our video calls, the way time just disappears when we talk. And those video calls😭🙏🏻 ....your crying(coz of me going away to Indore) that just wouldn’t stop 😭🫂... Even the days before that, every night on video call… the tears, the silence, the emotions😭🫂💗💗. It made me realise how deep our bond is🫶🏻💗, and how important i am for you now😭🫂. As i rightly said ...the "EPITOME of Siblingship". With you I feel needed,I feel responsible in the most honest way possible and yes YOU have had a huge impact on me as a person (bhaisahabb dimaag wala banda emotional ban gya yarrr😭😭🫂🫂). I know you miss me, and trust me, I carry that feeling with a lot of care🥹💗🫂.
 
-Happy Birthday! 🎉
+My Princess💗🫂, My Sunshine 🫶🏻💗 I love you more than words can properly explain. You are precious to me, you are valued, and you are never alone in this world. Remember Your dada is with you and will be with you HUMESHA..FORVER AND EVER AND EVER AND EVER...😭🫂🧿 
+On your birthday, I just want you to remember this: there is someone who truly cares for your heart, your happiness, and your inner child. I am sooo soooo luckyyy and endlessly grateful to have the bestestestesttttt sister ever in my life 😭😭🫂🫂💗.
 
-— yours AADIE DADA`;
+Wishinggg youu theee Happiesttt Birthdayyy, my pyaara sa baccha 🫶🏻🫂💗. Bhale hi aaj waha tumhare paas nahi huu par yaha se zarur tumhare saath hu aur humesha rahunga🫂🧿.
+Loveeeee youuu sooo soooo soooooo muchh myy chotuu sa babyyy 🫂🥹💗🫶🏻
+
+MY WHOLE HEART FOR YOUHHH!! 🫶🏻🥹🫂💗💗
+
+Your big brother — always here, always. 🧿🫂`;
 
   // Handle page transitions
   useEffect(() => {
