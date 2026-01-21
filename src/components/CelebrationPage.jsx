@@ -44,7 +44,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
     },
     {
       icon: "✨",
-      text: "Have a look at it, Myyy Prettiest Lil Babyyy",
+      text: "Have a look at it, Myyy Prettiest Lil Babyyy💗🫂",
       type: "announcement",
     },
   ];
