@@ -9,7 +9,7 @@ import "./MusicPlayer.css";
 
 const MusicPlayer = forwardRef((props, ref) => {
   const [isPlaying, setIsPlaying] = useState(false);
-  lconst audioRef = useRef(null);
+  const audioRef = useRef(null);
 
   const toggleMusic = () => {
   const audio = audioRef.current;
