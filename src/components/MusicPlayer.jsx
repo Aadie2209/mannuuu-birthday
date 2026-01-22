@@ -9,27 +9,22 @@ import "./MusicPlayer.css";
 
 const MusicPlayer = forwardRef((props, ref) => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(null);
+  lconst audioRef = useRef(null);
 
   const toggleMusic = () => {
-    const audio = audioRef.current;
-    if (audio) {
-      if (isPlaying) {
-        audio.pause();
-        setIsPlaying(false);
-      } else {
-        audio
-          .play()
-          .then(() => {
-            setIsPlaying(true);
-          })
-          .catch((error) => {
-            console.error("Error playing audio:", error);
-            setIsPlaying(false);
-          });
-      }
-    }
-  };
+  const audio = audioRef.current;
+  if (!audio) return;
+
+  if (audio.paused) {
+    audio.muted = false;
+    audio.volume = 0.8;
+    audio.play(); // 🔥 DIRECT PLAY (mobile-safe)
+    setIsPlaying(true);
+  } else {
+    audio.pause();
+    setIsPlaying(false);
+  }
+};
 
   // Expose play/pause methods to parent components
   useImperativeHandle(ref, () => ({
@@ -58,25 +53,7 @@ const MusicPlayer = forwardRef((props, ref) => {
     },
   }));
 
-  useEffect(() => {
-    // Try to autoplay
-    const audio = audioRef.current;
-    if (audio) {
-      // Set volume
-      audio.volume = 0.5;
-
-      audio
-        .play()
-        .then(() => {
-          setIsPlaying(true);
-        })
-        .catch((error) => {
-          // Autoplay was prevented
-          console.log("Autoplay prevented:", error);
-          setIsPlaying(false);
-        });
-    }
-  }, []);
+  
 
   return (
     <>
